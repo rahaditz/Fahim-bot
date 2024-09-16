@@ -30,7 +30,7 @@ module.exports.onLoad = async() => {
 async function makeImage({ one, two }) {
   const fs = global.nodemodule["fs-extra"];
   const path = global.nodemodule["path"];
-  const axios = global.nodem youodule["axios"]; 
+  const axios = global.nodemodule["axios"]; 
   const jimp = global.nodemodule["jimp"];
   const __root = path.resolve(__dirname, "cache", "canvas");
 
@@ -71,6 +71,6 @@ module.exports.run = async function ({ event, api, args }) {
   if (!mention[0]) return api.sendMessage("Please mention 1 person.", threadID, messageID);
   else {
       const one = senderID, two = mention[0];
-      return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n   বন্ধু অনেকদিন হইছে হাতের কাজ করে না 🤭🤒🌚       \n -আয় হাত মারি একসাথে..!👅🥵💦 \n╰──────•◈•───────╯", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+      return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•───────╮\n        বন্ধু 🤒🤭       \n -আয় হাত মারি একসাথে..!👅🥵💦 \n╰──────•◈•───────╯", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
-    }
+  }
