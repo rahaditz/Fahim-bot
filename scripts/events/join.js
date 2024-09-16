@@ -82,7 +82,7 @@ module.exports.run = async function({ api, event }) {
 
 			if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-			const randomPath = readdirSync(join(__dirname, "Alvi", "joinGif", "randomgif"));
+			const randomPath = readdirSync(join(__dirname, "Alvi", "join.gif", "randomgif"));
 
 			if (existsSync(pathGif)) formPush = { body: msg, attachment: createReadStream(pathGif), mentions }
 			else if (randomPath.length != 0) {
