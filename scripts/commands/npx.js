@@ -29,7 +29,7 @@ const media = (
   if (body.indexOf("🌚")==0 || body.indexOf("🍎")==0 || body.indexOf("🌺")==0 || body.indexOf("😟")==0 || body.indexOf("🧐")==0 || body.indexOf("🫶")==0 || body.indexOf("💘")==0 || body.indexOf("💕")==0 || body.indexOf("💖")==0 || body.indexOf("🥠")==0 || body.indexOf("🔪")==0 || body.indexOf("😯")==0 || body.indexOf("📉")==0 || body.indexOf("🤡")==0 || body.indexOf("🍿")==0 || body.indexOf("📞")==0 || body.indexOf("🧺")==0 || body.indexOf("💥")==0 || body.indexOf("👏")==0 || body.indexOf("🤝")==0 || body.indexOf("🤷‍♂️")==0  || body.indexOf("🫡")==0 || body.indexOf("✉️")==0 || body.indexOf("👑")==0 || body.indexOf("📤")==0 || body.indexOf("😶")==0 || body.indexOf("📥")==0 || body.indexOf("😮‍💨")==0 || body.indexOf("🫥")==0 || body.indexOf("🕛")==0 || body.indexOf("😵")==0 || body.indexOf("💉")==0 || body.indexOf("🤷‍♀️")==0 || body.indexOf("🤕")==0 || body.indexOf("📧")==0 || body.indexOf("😦")==0 || body.indexOf("😓")==0 || body.indexOf("😖")==0 || body.indexOf("😈")==0 || body.indexOf("👿")==0 || body.indexOf("💍")==0 || body.indexOf("⚒️")==0 || body.indexOf("🧡")==0 || body.indexOf("⚙️")==0 || body.indexOf("🤦‍♂️")==0 || body.indexOf("🤦‍♀️")==0 || body.indexOf("🙆‍♂️")==0 || body.indexOf("🙆‍♀️")==0 || body.indexOf("💏")==0 || body.indexOf("🗣️")==0 || body.indexOf("🫂")==0 || body.indexOf("🐒")==0 || body.indexOf("📡")==0 || body.indexOf("🏵️")==0 || body.indexOf("🌹")==0 || body.indexOf("🌷")==0 || body.indexOf("🍁")==0 || body.indexOf("🌝")==0 || body.indexOf("⭐")==0 || body.indexOf("💌")==0 || body.indexOf("💊")==0 || body.indexOf("⌛")==0 || body.indexOf("🔔")==0 || body.indexOf("📢")==0 || body.indexOf("🔍")==0 || body.indexOf("🔐")==0 || body.indexOf("💚")==0 || body.indexOf("💙")==0) {
     var msg = {
         body: "•⎯͢⎯⃝🙂_আমরা যাদেরকে ভালোবাসি তারা আমাদের জীবন থেকে হারিয়ে যাবেই..! 🙂\n       _এটাই প্রকৃতির নিয়ম⎯͢⎯⃝🤍🫶🌺!-:))\n𝐂𝐑𝐄𝐀𝐓𝐎𝐑: 𝐅𝐀𝐇𝐈𝐌 𝐂𝐇𝐎𝐖𝐃𝐇𝐔𝐑𝐘 ",
-        attachment: medim
+        attachment: media
       }
       api.sendMessage( msg, threadID, messageID);
     api.setMessageReaction("🖤", event.messageID, (err) => {}, true)
@@ -38,3 +38,4 @@ const media = (
   start: function({ nayan }) {
   }
 } 
+                 
